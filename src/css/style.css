@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    padding: 0;
+    margin: 0;
+}
+
+#banner {
+    padding: 5px 10px;
+    background: #4E8DF9;
+}
+
+#banner span {
+    font-size: 25pt;
+    font-weight: 500;
+    color: #000000;
+}
+
+#conteudo span button{
+    height: 32px;
+    background: #80B6F4;
+    border: 1px solid #80B6F4;
+}
