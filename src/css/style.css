@@ -1,23 +1,30 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-
+* {
     padding: 0;
     margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#banner {
-    padding: 5px 10px;
-    background: #4E8DF9;
+#inicio {
+    background: #1717e6;
 }
 
-#banner span {
-    font-size: 25pt;
-    font-weight: 500;
+#inicio h2 {
+    padding: 5px 0 5px 15px;
+}
+
+#menu div {
+    margin: auto;
+
+    text-align: center;
+
+    border: 1px solid red;
+}
+
+#menu div a{
+    padding: 25px;
+
+    text-decoration: none;
     color: #000000;
 }
 
-#conteudo span button{
-    height: 32px;
-    background: #80B6F4;
-    border: 1px solid #80B6F4;
-}
