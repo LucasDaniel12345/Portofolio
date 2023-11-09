@@ -5,26 +5,33 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
 #inicio {
-    background: #1717e6;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
 }
 
 #inicio h2 {
     padding: 5px 0 5px 15px;
+    color: #04052E;
 }
 
-#menu div {
-    margin: auto;
 
-    text-align: center;
 
-    border: 1px solid red;
+#inicio nav ul {
+    list-style: none;
+
+    padding: 10px;
 }
 
-#menu div a{
-    padding: 25px;
+#inicio nav ul li {
+    padding: 0 5px;
 
-    text-decoration: none;
-    color: #000000;
+    display: inline;
 }
 
